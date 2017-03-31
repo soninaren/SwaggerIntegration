@@ -1,22 +1,22 @@
 ﻿{
     "swagger": "2.0",
     "info": {
-        "title": "notlocalhost",
+        "title": "functiondev-swagger.azurewebsites.net",
         "version": "1.0.0"
     },
-    "host": "localhost",
+    "host": "functiondev-swagger.azurewebsites.net",
     "basePath": "/",
     "schemes": [
         "https",
         "http"
     ],
     "paths": {
-        "/api/Bot": {
+        "/api/HttpTriggerJS1": {
             "post": {
-                "operationId": "/api/Bot/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS1/post",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -25,36 +25,17 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             }
         },
-        "/api/Bot-CSharp": {
-            "post": {
-                "operationId": "/api/Bot-CSharp/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger": {
+        "/api/HttpTriggerJS2": {
             "get": {
-                "operationId": "/api/HttpTrigger/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/get",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -63,104 +44,15 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger-Batch": {
-            "get": {
-                "operationId": "/api/HttpTrigger-Batch/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger-CSharp": {
-            "get": {
-                "operationId": "/api/HttpTrigger-CSharp/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/csharp/products/{category}/{id}": {
-            "get": {
-                "operationId": "/api/csharp/products/{category}/{id}/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "category",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    },
-                    {
-                        "name": "id",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger-CSharp-Poco": {
-            "get": {
-                "operationId": "/api/HttpTrigger-CSharp-Poco/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             },
             "post": {
-                "operationId": "/api/HttpTrigger-CSharp-Poco/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/post",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -169,238 +61,15 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/node/products/{category}/{id}": {
-            "get": {
-                "operationId": "/api/node/products/{category}/{id}/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "category",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    },
-                    {
-                        "name": "id",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "post": {
-                "operationId": "/api/node/products/{category}/{id}/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "category",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    },
-                    {
-                        "name": "id",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "put": {
-                "operationId": "/api/node/products/{category}/{id}/put",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "category",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    },
-                    {
-                        "name": "id",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger-Node-Promise": {
-            "get": {
-                "operationId": "/api/HttpTrigger-Node-Promise/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger-Powershell": {
-            "get": {
-                "operationId": "/api/HttpTrigger-Powershell/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTrigger-PowerShell-Modules": {
-            "get": {
-                "operationId": "/api/HttpTrigger-PowerShell-Modules/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTriggerShared": {
-            "get": {
-                "operationId": "/api/HttpTriggerShared/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/HttpTriggerWithObject-CSharp": {
-            "post": {
-                "operationId": "/api/HttpTriggerWithObject-CSharp/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/WebHook-Azure-CSharp": {
-            "get": {
-                "operationId": "/api/WebHook-Azure-CSharp/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "post": {
-                "operationId": "/api/WebHook-Azure-CSharp/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             },
             "delete": {
-                "operationId": "/api/WebHook-Azure-CSharp/delete",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/delete",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -409,15 +78,15 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             },
             "head": {
-                "operationId": "/api/WebHook-Azure-CSharp/head",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/head",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -426,15 +95,15 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             },
             "patch": {
-                "operationId": "/api/WebHook-Azure-CSharp/patch",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/patch",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -443,15 +112,15 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             },
             "put": {
-                "operationId": "/api/WebHook-Azure-CSharp/put",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/put",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -460,15 +129,15 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             },
             "options": {
-                "operationId": "/api/WebHook-Azure-CSharp/options",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
+                "operationId": "/api/HttpTriggerJS2/options",
+                "produces": [],
+                "consumes": [],
+                "parameters": [],
                 "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
                 "responses": {
                     "200": {
@@ -477,546 +146,13 @@
                 },
                 "security": [
                     {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/WebHook-Generic": {
-            "get": {
-                "operationId": "/api/WebHook-Generic/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "post": {
-                "operationId": "/api/WebHook-Generic/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "delete": {
-                "operationId": "/api/WebHook-Generic/delete",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "head": {
-                "operationId": "/api/WebHook-Generic/head",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "patch": {
-                "operationId": "/api/WebHook-Generic/patch",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "put": {
-                "operationId": "/api/WebHook-Generic/put",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "options": {
-                "operationId": "/api/WebHook-Generic/options",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/hooks/csharp/generic/{action}": {
-            "get": {
-                "operationId": "/api/hooks/csharp/generic/{action}/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "post": {
-                "operationId": "/api/hooks/csharp/generic/{action}/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "delete": {
-                "operationId": "/api/hooks/csharp/generic/{action}/delete",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "head": {
-                "operationId": "/api/hooks/csharp/generic/{action}/head",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "patch": {
-                "operationId": "/api/hooks/csharp/generic/{action}/patch",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "put": {
-                "operationId": "/api/hooks/csharp/generic/{action}/put",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "options": {
-                "operationId": "/api/hooks/csharp/generic/{action}/options",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [
-                    {
-                        "name": "action",
-                        "in": "path",
-                        "required": true,
-                        "type": "string"
-                    }
-                ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/WebHook-Generic-CSharp-Dynamic": {
-            "get": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "post": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "delete": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/delete",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "head": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/head",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "patch": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/patch",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "put": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/put",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "options": {
-                "operationId": "/api/WebHook-Generic-CSharp-Dynamic/options",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            }
-        },
-        "/api/WebHook-GitHub": {
-            "get": {
-                "operationId": "/api/WebHook-GitHub/get",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "post": {
-                "operationId": "/api/WebHook-GitHub/post",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "delete": {
-                "operationId": "/api/WebHook-GitHub/delete",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "head": {
-                "operationId": "/api/WebHook-GitHub/head",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "patch": {
-                "operationId": "/api/WebHook-GitHub/patch",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "put": {
-                "operationId": "/api/WebHook-GitHub/put",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
-                    }
-                ]
-            },
-            "options": {
-                "operationId": "/api/WebHook-GitHub/options",
-                "produces": [ ],
-                "consumes": [ ],
-                "parameters": [ ],
-                "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
-                "responses": {
-                    "200": {
-                        "description": "Success operation"
-                    }
-                },
-                "security": [
-                    {
-                        "apikeyQuery": [ ]
+                        "apikeyQuery": []
                     }
                 ]
             }
         }
     },
-    "definitions": { },
+    "definitions": {},
     "securityDefinitions": {
         "apikeyQuery": {
             "type": "apiKey",
